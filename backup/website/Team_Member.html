@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+   <link rel="stylesheet" href="style.css">
+   <title>Creative Our Team Section Using HTML & CSS </title>
+   <style>
+       @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+       @import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Bellota Text', cursive;
+}
+body
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   width: 100%;
+   background: #ffffff;
+}
+
+
+
+.Heading{
+    position: absolute;
+    width: 580px;
+    height: 75px;
+    left: 575px;
+    top: 40px;
+
+    font-family: Mulish;
+     font-style: normal;
+     font-weight: 900;
+     font-size: 68.21px;
+    line-height: 86px;
+
+    color: #f67c92;
+}
+
+
+.container
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.container .card
+{
+   width: 250px;
+   height: 416px;
+   padding: 60px 30px;
+   margin: 20px;
+   background: #d2d4c8;
+   /* box-shadow: 0.6em 0.6em 0.5em #d2dce9,
+               -0.5em -0.5em 1em #ffffff; */
+
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+   border-radius: 20px;
+}
+.container .card .content
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.container .card .content .imgBx
+{
+   width: 180px;
+   height: 180px;
+   border-radius: 50%;
+   position: relative;
+   margin-bottom: 20px;
+   overflow: hidden;
+}
+.container .card .content .imgBx img
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.container .card .content .contentBx h4
+{
+   color: #36187d;
+   font-size: 1.7rem;
+   font-weight: bold;
+   text-align: center;
+   letter-spacing: 1px;
+}
+.container .card .content .contentBx h5
+{
+   color: #6c758f;
+   font-size: 1.2rem;
+   font-weight: bold;
+   text-align: center;
+}
+.container .card .content .sci
+{
+   margin-top: 20px;
+}
+.container .card .content .sci a
+{
+   text-decoration: none;
+   color: #6c758f;
+   font-size: 30px;
+   margin: 10px;
+   transition: color 0.4s;
+}
+.container .card .content .sci a:hover
+{
+   color: #0196e3;
+}
+/*   colors
+        #f2f3f7
+        #d2dce9
+        #36187d
+        #6c758f
+        #0196e3
+ */
+   </style>
+
+   <!-- Created by S-Tech04 -->
+
+</head>
+<body>
+    
+
+   
+
+    <div class="Heading">
+        TEAM MEMBERS
+    </div>
+
+
+    <div class="container">
+        
+        <div class="card">
+            <div class="content">
+                <div class="imgBx">
+                    <img src="Shivansh.svg" alt="">
+                </div>
+                <div class="contentBx">
+                    <h4>Shivansh </h4>
+                    <h5>Web Development </h5>
+                </div>
+                <div class="sci">
+                    <a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <div class="imgBx">
+                    <img class="Aayush" src="Aayush.svg" alt="">
+                </div>
+                <div class="contentBx">
+                    <h4>Aayush </h4>
+                    <h5>Web Development</h5>
+                </div>
+                <div class="sci">
+                    <a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="content">
+                <div class="imgBx">
+                    <img src="Vedish.svg" alt="">
+                </div>
+                <div class="contentBx">
+                    <h4>Vedish</h4>
+                    <h5>Web Development</h5>
+                </div>
+                <div class="sci">
+                    <a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/captain_vrk"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <div class="imgBx">
+                    <img src="Pooja.svg" alt="">
+                </div>
+                <div class="contentBx">
+                    <h4>Pooja</h4>
+                    <h5>Web Development</h5>
+                </div>
+                <div class="sci">
+                    <a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
