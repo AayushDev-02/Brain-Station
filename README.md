@@ -8,7 +8,6 @@ Tools used - XAMPP, Vs Code, My SQL Console, etc.
 
 
 Project Report PPT:
-
 [Project Brain Station PPT.pdf](https://github.com/AayushDev-02/Brain-Station/files/9836373/Project.Brain.Station.PPT.pdf)
 
 Project Poster:
