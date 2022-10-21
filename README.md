@@ -11,6 +11,10 @@ Project Report PPT:
 
 [Project Brain Station PPT.pdf](https://github.com/AayushDev-02/Brain-Station/files/9836373/Project.Brain.Station.PPT.pdf)
 
+Project Poster:
+[Brain Station Poster.pdf](https://github.com/AayushDev-02/Brain-Station/files/9839418/Brain.Station.Poster.pdf)
+
+
 Images :
 
 Login Page: 
